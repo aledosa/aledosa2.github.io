@@ -1,15 +1,17 @@
-import type React from "react"
-import { useEffect, useRef, useState } from "react"
+// import type React from "react"
+// import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef } from "react"
 import { Mail, MapPin, Phone, Send } from "lucide-react"
 import "../styles/contact-section.css"
 
 export default function ContactSection() {
   const sectionRef = useRef<HTMLDivElement>(null)
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
-  })
+  // Added all this comments due to Formspree integration
+  // const [formState, setFormState] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // })
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -37,22 +39,22 @@ export default function ContactSection() {
     }
   }, [])
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormState({
-      ...formState,
-      [e.target.name]: e.target.value,
-    })
-  }
+  // const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  //   setFormState({
+  //     ...formState,
+  //     [e.target.name]: e.target.value,
+  //   })
+  // }
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle form submission here
-    console.log(formState)
-    // Reset form
-    setFormState({ name: "", email: "", message: "" })
-    // Show success message
-    alert("Message sent successfully!")
-  }
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault()
+  //   // Handle form submission here
+  //   console.log(formState)
+  //   // Reset form
+  //   setFormState({ name: "", email: "", message: "" })
+  //   // Show success message
+  //   alert("Message sent successfully!")
+  // }
 
   return (
     <section id="contact" className="contact-section" ref={sectionRef}>
@@ -105,7 +107,8 @@ export default function ContactSection() {
           </div>
 
           <div className="contact-form-container animate" data-animation="slide-left">
-            <form className="contact-form" action="https://formspree.io/f/mqapawkq" method="POST" onSubmit={handleSubmit}>
+            {/* <form className="contact-form" onSubmit={handleSubmit}> */}
+            <form className="contact-form" action="https://formspree.io/f/mqapawkq" method="POST" >
               <div className="form-row">
                 <div className="form-group">
                   <label htmlFor="name" className="form-label">
@@ -114,8 +117,8 @@ export default function ContactSection() {
                   <input
                     id="name"
                     name="name"
-                    value={formState.name}
-                    onChange={handleChange}
+                    // value={formState.name}
+                    // onChange={handleChange}
                     placeholder="Your name"
                     className="form-input"
                     required
@@ -129,8 +132,8 @@ export default function ContactSection() {
                     id="email"
                     name="email"
                     type="email"
-                    value={formState.email}
-                    onChange={handleChange}
+                    // value={formState.email}
+                    // onChange={handleChange}
                     placeholder="Your email"
                     className="form-input"
                     required
@@ -145,8 +148,8 @@ export default function ContactSection() {
                 <textarea
                   id="message"
                   name="message"
-                  value={formState.message}
-                  onChange={handleChange}
+                  // value={formState.message}
+                  // onChange={handleChange}
                   placeholder="Tell me about your project"
                   className="form-textarea"
                   required
