@@ -43,7 +43,7 @@ export default function AboutSection() {
           <div className="about-image-container animate" data-animation="slide-right">
             <div className="about-image-wrapper">
               <img
-                src="./assets/team-working.jpg"
+                src="./images/team-working.jpg"
                 alt="Software Development"
                 width={600}
                 height={600}
