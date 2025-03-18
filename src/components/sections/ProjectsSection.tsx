@@ -36,7 +36,7 @@ export default function ProjectsSection() {
     {
       title: "Learning Management System",
       description: "Collaboration of design and development of client page and administration page for Scouting America.",
-      image: "/assets/online-learning.jpg?height=600&width=800",
+      image: "./assets/online-learning.jpg",
       tags: ["React.Js", "Storybook", "TypeScript", "NPM", "Nginx", "Jenkins Pipeline"],
       liveUrl: "https://my.scouting.org/",
       githubUrl: "https://www.linkedin.com/company/scouting-america/",
@@ -44,7 +44,7 @@ export default function ProjectsSection() {
     {
       title: "Customer Relationship Management System",
       description: "Frontend leader developer for Florida Blue Delinquency Department.",
-      image: "/assets/crm.jpg?height=600&width=800",
+      image: "./assets/crm.jpg?height=600&width=800",
       tags: ["React.js", "MUI Components", "Redhat", "Swagger", "Redux", "Agile/Scrum Methodology"],
       liveUrl: "https://www.floridablue.com/",
       githubUrl: "https://www.linkedin.com/company/florida-blue/",
