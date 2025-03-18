@@ -43,8 +43,8 @@ export default function AboutSection() {
           <div className="about-image-container animate" data-animation="slide-right">
             <div className="about-image-wrapper">
               <img
-                src="/placeholder.svg?height=600&width=600"
-                alt="Lex Dominguez"
+                src="src/assets/team-working.jpg?height=600&width=600"
+                alt="Software Development"
                 width={600}
                 height={600}
                 className="about-image"
@@ -58,7 +58,7 @@ export default function AboutSection() {
             <p className="about-description">
               With over 5 years of experience in front-end development, I've cultivated a deep understanding of creating
               seamless, accessible, and performant web applications. My journey began with a passion for the
-              intersection of design and technology, which has guided my career ever since.
+              intersection of consulting and technology, which has guided my career ever since.
             </p>
             <p className="about-description">
               I specialize in crafting elegant user interfaces with modern frameworks like React Js, while

@@ -36,7 +36,7 @@ export default function ProjectsSection() {
     {
       title: "Learning Management System",
       description: "Collaboration of design and development of client page and administration page for Scouting America.",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "src/assets/online-learning.jpg?height=600&width=800",
       tags: ["React.Js", "Storybook", "TypeScript", "NPM", "Nginx", "Jenkins Pipeline"],
       liveUrl: "https://my.scouting.org/",
       githubUrl: "https://www.linkedin.com/company/scouting-america/",
@@ -44,7 +44,7 @@ export default function ProjectsSection() {
     {
       title: "Customer Relationship Management System",
       description: "Frontend leader developer for Florida Blue Delinquency Department.",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "src/assets/crm.jpg?height=600&width=800",
       tags: ["React.js", "MUI Components", "Redhat", "Swagger", "Redux", "Agile/Scrum Methodology"],
       liveUrl: "https://www.floridablue.com/",
       githubUrl: "https://www.linkedin.com/company/florida-blue/",
@@ -53,7 +53,7 @@ export default function ProjectsSection() {
       title: "Healthcare Patient Portal",
       description:
         "An accessible patient portal with appointment scheduling, medical records, and telehealth integration.",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "src/assets/online-healthcare.jpg?height=600&width=800",
       tags: ["Angular", "Redux", "AWS Code Commit", "Prime ng", "AWS","Frontend development","Agile/Scrum methodology"],
       liveUrl: "https://www.aryanow.com",
       githubUrl: "https://www.linkedin.com/in/aryanowcare/",
@@ -61,7 +61,7 @@ export default function ProjectsSection() {
     {
       title: "MVP Development",
       description: "Mobile app prototype to encourage the use of accessibility on applications based on time blindness.",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "src/assets/mobile-app.jpg?height=600&width=800",
       tags: ["React Native", "GCP", "Figma", "Firebase"],
       liveUrl: "https://www.digitalproductschool.io/",
       githubUrl: "https://www.linkedin.com/company/digital-product-school/",
@@ -102,7 +102,7 @@ export default function ProjectsSection() {
           <div className="project-showcase animate" data-animation="slide-left">
             <div className="project-showcase-wrapper">
               <img
-                src={projects[activeProject].image || "/placeholder.svg"}
+                src={projects[activeProject].image || "src/assets/react.svg"}
                 alt={projects[activeProject].title}
                 width={800}
                 height={600}
