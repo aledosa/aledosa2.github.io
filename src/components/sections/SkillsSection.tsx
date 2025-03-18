@@ -1,5 +1,3 @@
-"use client"
-
 import { useEffect, useRef } from "react"
 import { Code, Layers, Layout, Palette, Sparkles, Zap } from "lucide-react"
 import "../styles/skills-section.css"

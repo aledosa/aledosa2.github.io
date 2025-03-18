@@ -65,6 +65,13 @@ export default function WelcomeSection() {
             <span className="sr-only">Email</span>
           </a>
         </div>
+
+        <div className="scroll-indicator">
+          <span className="scroll-text">Scroll to explore</span>
+          <div className="scroll-line">
+            <div className="scroll-dot"></div>
+          </div>
+        </div>
       </div>
 
       <div className="hero-background">
@@ -73,12 +80,6 @@ export default function WelcomeSection() {
         <div className="hero-shape hero-shape-3"></div>
       </div>
 
-      <div className="scroll-indicator">
-        <span className="scroll-text">Scroll to explore</span>
-        <div className="scroll-line">
-          <div className="scroll-dot"></div>
-        </div>
-      </div>
     </section>
   )
 }
