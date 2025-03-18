@@ -105,7 +105,7 @@ export default function ContactSection() {
           </div>
 
           <div className="contact-form-container animate" data-animation="slide-left">
-            <form onSubmit={handleSubmit} className="contact-form">
+            <form className="contact-form" action="https://formspree.io/f/mqapawkq" method="POST" onSubmit={handleSubmit}>
               <div className="form-row">
                 <div className="form-group">
                   <label htmlFor="name" className="form-label">
