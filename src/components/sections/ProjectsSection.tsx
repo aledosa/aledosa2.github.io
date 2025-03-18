@@ -125,9 +125,9 @@ export default function ProjectsSection() {
         </div>
 
         <div className="projects-view-all">
-          <a href="#projects">
+          <a href="https://aledosa.github.io/aledosa1.github.io/">
             <button className="tertiary-button">
-              View All Projects <ArrowUpRight className="button-icon" />
+              View Fun Playground <ArrowUpRight className="button-icon" />
             </button>
           </a>
         </div>

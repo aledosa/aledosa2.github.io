@@ -60,7 +60,7 @@ export default function WelcomeSection() {
             <Linkedin />
             <span className="sr-only">LinkedIn</span>
           </a>
-          <a href="/" className="social-link">
+          <a href="#contact" className="social-link">
             <Mail />
             <span className="sr-only">Email</span>
           </a>
