@@ -28,7 +28,7 @@ export default function WelcomeSection() {
       <div className="hero-content">
         <div className="hero-intro">Personal, Business and Tech Development</div>
         <h1 className="hero-title">
-          <span className="hero-name">Alexa Dominguez</span>
+          <span className="hero-name">Harmony</span>
         </h1>
         <h2 className="hero-subtitle">
           {typedText}
@@ -36,7 +36,7 @@ export default function WelcomeSection() {
         </h2>
         <p className="hero-description">
           Complex ideas into elegant, intuitive interfaces. Clean code and thoughtful
-          design that delight users and drive business goals.
+          design to drive business goals and users.
         </p>
 
         <div className="hero-buttons">
