@@ -1,4 +1,5 @@
 # React + TypeScript + Vite
 
-Portafolio Page build in different framework.
+Portafolio Page built in different framework.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
